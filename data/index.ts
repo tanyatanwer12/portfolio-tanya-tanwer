@@ -10,9 +10,8 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className:
-      "lg:col-span-2 md:col-span-4 md:row-span-2 lg:min-h-[60vh] mt-44 ml-20 mr-20 bottom-24",
-    imgClassName: "",
+    className: "lg:col-span-2 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
+    imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
@@ -21,8 +20,7 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className:
-      "lg:col-span-1 md:col-span-2 md:row-span-1 mt-20 mr-5 right-12 bottom-2",
+    className: "lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -32,8 +30,7 @@ export const gridItems = [
     id: 3,
     title: "My tech stack",
     description: "I constantly try to improve",
-    className:
-      "lg:col-span-1 md:col-span-2 md:row-span-1 mt-20 right-12 mr-5 bottom-24",
+    className: "lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -43,8 +40,7 @@ export const gridItems = [
     id: 4,
     title: "Tech enthusiast with a passion for development.",
     description: "",
-    className:
-      "lg:col-span-1 md:col-span-2 md:row-span-1 mt-36 ml-25 mr-30 bottom-60 left-20 ",
+    className: "lg:col-span-1 md:col-span-3 md:row-auto md:h-32 ",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
@@ -55,7 +51,7 @@ export const gridItems = [
     id: 5,
     title: "Currently building a JS Animation library",
     description: "The Inside Scoop",
-    className: "md:col-span-2 md:row-span-1 mt-18 left-20 mr-36 bottom-24",
+    className: "md:col-span-2 md:row-span-1 ",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
@@ -65,15 +61,14 @@ export const gridItems = [
     id: 6,
     title: "Do you want to start a project together?",
     description: "",
-    className:
-      "lg:col-span-1 md:col-span-2 md:row-span-1 mt-36 ml-25 mr-30 bottom-96 left-20 ",
+    className: "lg:col-span-1 md:col-span-3 md:row-auto md:h-36  md:bottom-40",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
   },
 ];
-
+//justify-center md:max-w-full max-w-60 text-center
 export const projects = [
   {
     id: 1,

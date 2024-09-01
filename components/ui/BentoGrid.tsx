@@ -147,7 +147,7 @@ export const BentoGridItem = ({
                   }}
                 />
               </div>
-              <div style={{ marginTop: -45 }}>
+              <div className="mt-[-45px] sm:mt-[-30px]">
                 <MagicButton
                   title={copied ? "Email copied" : "Copy my email"}
                   icon={<IoCopyOutline />}
