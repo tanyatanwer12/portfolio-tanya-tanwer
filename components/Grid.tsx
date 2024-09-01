@@ -16,7 +16,7 @@ const Grid = () => {
             imgClassName,
             titleClassName,
             spareImg,
-            test,
+    
           }) => (
             <BentoGridItem
               id={id}
